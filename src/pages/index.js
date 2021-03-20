@@ -7,7 +7,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`jeffl`, `jeff`, `leibensperger`, `workday`]}
+        keywords={[`jeffl`, `jeff`, `leibensperger`, `workday`, 'resume']}
         title="Home"
       />
 
