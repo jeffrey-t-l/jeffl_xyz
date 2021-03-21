@@ -25,9 +25,13 @@ function IndexPage() {
                 Welcome to my website. There may not be too much to do here, but thanks for looking around. Feel free to stop by anytime.
               </blockquote>
               <blockquote className="pl-4 leading-loose text-justify border-l-4 border-gray-900">
-                <a href="/books">Books</a>
+                <a href="/books/">Books</a>
               </blockquote>
-              <br />
+              <Link to="/invites/" replace>
+                <span className="p-4 bg-black text-white text-s rounded shadow hover:bg-gray-700">
+                  Referral Codes
+                </span>
+              </Link>
               <br />
             </div>
           </div>

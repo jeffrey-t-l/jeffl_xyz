@@ -15,17 +15,17 @@ function Layout({ children }) {
           </div>
           <div className="w-full block flex-grow lg:flex lg:items-left lg:w-auto">
             <div className="text-sm lg:flex-grow">
-              <Link to="/books">
+              <Link to="/books/"  replace>
                 <span className="p-4 bg-black text-white text-s rounded shadow hover:bg-gray-700">
                   Good Reads
                 </span>
               </Link>
-              <Link to="/resume">
+              <Link to="/resume/"  replace>
                 <span className="p-4 bg-black text-white text-s rounded shadow hover:bg-gray-700">
                   Work Experience
                 </span>
               </Link>
-              <Link to="/invites">
+              <Link to="/invites/" replace>
                 <span className="p-4 bg-black text-white text-s rounded shadow hover:bg-gray-700">
                   Referral Codes
                 </span>
