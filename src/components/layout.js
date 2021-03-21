@@ -3,7 +3,6 @@ import React from "react";
 import SEO from "./seo";
 import { Link } from "gatsby"
 
-
 function Layout({ children }) {
   return (
     <>

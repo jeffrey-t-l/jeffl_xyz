@@ -2,6 +2,7 @@ import React from "react";
 import heroImage from "../images/ws-me-point-reyes-2017.jpg"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { Link } from "gatsby"
 
 function IndexPage() {
   return (
@@ -24,6 +25,11 @@ function IndexPage() {
                 Welcome to my website. There may not be too much to do here, but thanks for looking around. Feel free to stop by anytime.
               </blockquote>
               <blockquote className="pl-4 leading-loose text-justify border-l-4 border-gray-900">
+              <Link to="/books">
+                <span className="p-4 bg-black text-white text-s rounded shadow hover:bg-gray-700">
+                  Good Reads
+                </span>
+              </Link>
               </blockquote>
               <br />
               <br />
