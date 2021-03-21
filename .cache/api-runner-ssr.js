@@ -4,9 +4,6 @@ var plugins = [{
     },{
       plugin: require('/Users/jeffl/GatsbyJS/websites/jeffl_xyz/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"jeffl-website","short_name":"jeffl","start_url":"/","background_color":"#fff","display":"minimal-ui","icon":"src/static/icon.svg","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"de5e25d22c6e891d01ac22511ddebd3f"},
-    },{
-      plugin: require('/Users/jeffl/GatsbyJS/websites/jeffl_xyz/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
