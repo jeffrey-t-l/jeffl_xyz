@@ -7,6 +7,10 @@ const Resume = () => {
         <main className="max-w-4xl flex-grow mx-auto flex flex-col justify-evenly">
             <div>
                 <div className="grid grid-rows-1 md:grid-rows-1 ...">
+                    <p className="px-2 mt-4 text-lg text-gray-700 sm:mt-8"><strong>Compass</strong></p>
+                    <div className="px-6 mt-8 text-sm text-gray-700">Technical Workday Manager</div>
+                </div>
+                <div className="grid grid-rows-1 md:grid-rows-1 ...">
                     <p className="px-2 mt-4 text-lg text-gray-700 sm:mt-8"><strong>WeWork Management</strong></p>
                     <div className="px-6 mt-8 text-sm text-gray-700">Manager, People Systems Integrations</div>
                 </div>
