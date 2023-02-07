@@ -15,6 +15,7 @@ function Layout({ children }) {
           </div>
           <div className="w-full block flex-grow lg:flex lg:items-left lg:w-auto">
             <div className="text-sm lg:flex-grow">
+              {/*
               <Link to="/books/"  replace>
                 <span className="p-4 bg-black text-white text-s rounded shadow hover:bg-gray-700">
                   Good Reads
@@ -30,6 +31,7 @@ function Layout({ children }) {
                   Referral Codes
                 </span>
               </Link>
+              */}
             </div>
           </div>
           <div className="w-full block flex-grow lg:flex lg:items-right lg:w-auto">

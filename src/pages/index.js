@@ -22,7 +22,7 @@ function IndexPage() {
               <br />
               <br />
               <blockquote className="pl-4 leading-loose text-justify border-l-4 border-gray-900">
-                Welcome to my website. There may not be too much to do here, but thanks for looking around. Feel free to stop by anytime.
+                Hey.
               </blockquote>
               <br />
             </div>
