@@ -22,7 +22,7 @@ function IndexPage() {
               <br />
               <br />
               <blockquote className="pl-4 leading-loose text-justify border-l-4 border-gray-900">
-                Hey.
+                {/*Hey.*/}
               </blockquote>
               <br />
             </div>
